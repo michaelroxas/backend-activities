@@ -14,3 +14,21 @@ end
 
 puts liters(4)
 puts liters(5)
+
+
+
+# returning a number to the nearest 0.25
+class Float
+    def round_to_point25
+        (self*4).round / 4.0
+    end
+end
+
+puts 1.23.round_to_point25
+# -> 1.25
+
+puts 2.13.round_to_point25
+# -> 2.25
+
+puts -0.73.round_to_point25
+# -> -0.75
