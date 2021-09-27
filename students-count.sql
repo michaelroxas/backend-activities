@@ -1,0 +1,11 @@
+-- Display the count of all students 
+SELECT COUNT (id) FROM STUDENTS;
+
+-- Select all students located in `Manila`
+SELECT * FROM STUDENTS WHERE location = 'manila';
+
+-- DISPLAY THE AVERAGE AGE OF ALL STUDENTS
+SELECT AVG(ROUND(age)) FROM STUDENTS;
+
+-- DISPLAY ALL STUDENTS BY AGE IN DESCENDING ORDER
+SELECT * FROM STUDENTS ORDER BY age DESC;
