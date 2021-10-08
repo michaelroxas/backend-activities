@@ -1,3 +1,4 @@
+### 09-20-2021
 ### Find the smallest integer in the array
 # Do not use `.min`
 # Do not use `.sort`
