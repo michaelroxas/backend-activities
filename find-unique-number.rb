@@ -10,3 +10,4 @@ end
 
 a = [1,1,1,1,11,1,1]
 puts find_uniq(a)
+
