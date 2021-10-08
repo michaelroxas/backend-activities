@@ -1,3 +1,5 @@
+# All numbers are equal in the array except one, find that number. 
+
 def find_uniq(arr)
   arr.each do |n|
     if arr.count(n) == 1
@@ -6,4 +8,5 @@ def find_uniq(arr)
   end
 end
 
-puts find_uniq([1,1,1,1,1,1,1,13])
+a = [1,1,1,1,11,1,1]
+puts find_uniq(a)
